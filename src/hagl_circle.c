@@ -80,7 +80,7 @@ hagl_fill_circle(void const *surface, int16_t x0, int16_t y0, int16_t r, hagl_co
 {
     int16_t x = 0;
     int16_t y = r;
-    int16_t d = 3 - 2 * r;  
+    int16_t d = 3 - 2 * r;
 
     while (y >= x) {
         hagl_draw_hline(surface, x0 - x, y0 + y, x * 2, color);
